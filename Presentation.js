@@ -10,9 +10,9 @@ exports.action = function(data, callback){
 
 function sePresente (data, client) {
 	
-	Avatar.speak("Je suis avatar, une intélligence artificielle cybernitique, créer par l'ingenieur en informatique stéphane bascherr et dédié à la conception d'une maison intelligente et à l'internet des objets.", data.client, function(){
-			Avatar.Speech.end(data.client);
-		});
+	Avatar.speak("Je suis avatar, une intélligence artificielle cybernétique, créer par l'ingenieur en informatique stéphane bascherr et dédié à la conception d'une maison intelligente et à l'internet des objets.", data.client, function(){
+	Avatar.Speech.end(data.client);
+        });
 }
 
 
